@@ -1,0 +1,321 @@
+* {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .header {
+  width: 100%;
+  height: 768px;
+  background-image: url("../img/bg.svg");
+  background-size: cover;
+}
+.container .header .gradient {
+  width: 100%;
+  height: 768px;
+  background: rgba(198, 108, 73, 0.3);
+  opacity: 80%;
+}
+.container .header .title {
+  position: absolute;
+  padding-left: 165px;
+  padding-top: 93px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.container .header .main-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container .header .main-menu a {
+  justify-content: flex-end;
+  padding-top: 93px;
+  padding-right: 60px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.container .header .main-menu .lastA {
+  padding-right: 166px;
+}
+.container .header .main-name {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.container .header .main-name h1 {
+  padding-left: 165px;
+  padding-top: 145px;
+}
+.container .header .main-paragraf {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.container .header .main-paragraf p {
+  padding-left: 165px;
+  padding-top: 26px;
+}
+.container .header .latest-works {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+.container .header .latest-works a {
+  display: inline-block;
+  padding-left: 165px;
+  padding-top: 106px;
+  color: #FFFFFF;
+}
+.container .about {
+  width: 100%;
+  height: 544px;
+  background: #FFFFFF;
+}
+.container .about p {
+  padding-top: 93px;
+  padding-left: 165px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .about span {
+  display: inline-block;
+  padding-left: 165px;
+  padding-top: 76px;
+  padding-right: 167px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .about #secondSpan {
+  padding-top: 43px;
+}
+.container .skills {
+  width: 100%;
+  height: 693px;
+  background: #FFFAF2;
+}
+.container .skills .skills_title {
+  padding-bottom: 86px;
+}
+.container .skills .title {
+  padding-top: 93px;
+  padding-left: 165px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .skills img {
+  display: inline-block;
+  position: absolute;
+  padding-left: 165px;
+  width: 350px;
+  height: 340px;
+}
+.container .skills .skills_information {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  flex-direction: column;
+  display: inline-block;
+}
+.container .skills .skills_information .skills_information_name {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 640px;
+  padding-bottom: 20px;
+}
+.container .skills .skills_information .profile {
+  padding-bottom: 65px;
+}
+.container .skills .block-progresBar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 829px;
+}
+.container .skills .block-progresBar p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skills .block-progresBar p {
+  padding-bottom: 20px;
+}
+.container .skills .block-progresBar div {
+  margin-bottom: 21px;
+}
+.container .skills .block-progresBar .header_paragraf {
+  padding-bottom: 65px;
+}
+.container .skills .block-progresBar .progresBar {
+  width: 446px;
+  height: 24px;
+  background: #F5D6AB;
+}
+.container .skills .block-progresBar .progresBar .progresBarOn {
+  width: 381px;
+  height: 24px;
+  background: #C66C49;
+}
+.container .skills .block-progresBar .progresBar .progresBarOnSecond {
+  width: 351px;
+  height: 24px;
+  background: #C66C49;
+}
+.container .skills .block-progresBar .progresBar .progresBarOnThird {
+  width: 286px;
+  height: 24px;
+  background: #C66C49;
+}
+.container .portfolio {
+  width: 100%;
+  height: 822px;
+}
+.container .portfolio .title {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 93px;
+  padding-left: 165px;
+  padding-bottom: 86px;
+}
+.container .portfolio .UXR {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 166px;
+  padding-bottom: 48px;
+}
+.container .portfolio .some_information {
+  position: absolute;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  width: 349px;
+  height: 137px;
+  margin-left: 166px;
+}
+.container .portfolio .imgWorks {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 165px;
+}
+.container .portfolio .imgWorks .chevron {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 482px;
+}
+.container .portfolio .imgWorks .chevron .left {
+  padding-right: 14px;
+}
+.container .portfolio .imgWorks .first-block {
+  display: flex;
+  flex-direction: column;
+}
+.container .portfolio .imgWorks .first-block .rectangle {
+  padding-bottom: 26px;
+}
+.container .portfolio .imgWorks .second-block {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.container .portfolio .imgWorks .second-block .dom-luis-bridge {
+  padding-bottom: 26px;
+}
+.container .footer {
+  display: flex;
+  width: 100% px;
+  height: 528px;
+  flex-direction: column;
+  background: #FFFAF2;
+}
+.container .footer p {
+  padding-left: 165px;
+  padding-top: 93px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .footer .columns {
+  display: flex;
+  flex-direction: row;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-top: 51px;
+}
+.container .footer .columns .firstColumn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 165px;
+}
+.container .footer .columns .secondColumn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 369px;
+}
+.container .footer .columns .thirdColumn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 307px;
+}
+.container .footer .columns a {
+  padding-bottom: 14px;
+  text-decoration: none;
+  color: #333333;
+}
+.container .footer .chevronUp {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 180px;
+  padding-top: 95px;
+}
+
+/*# sourceMappingURL=styles.css.map */

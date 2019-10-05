@@ -1,0 +1,420 @@
+
+*{
+    font-family:'Libre Franklin', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+
+    .header{
+        width: 100%;
+        height: 768px;
+        background-image: url('../img/bg.svg');
+        background-size: cover;
+        .gradient{
+            width: 100%;
+            height: 768px;
+            background: rgba(198, 108, 73, 0.3);
+            opacity: 80%;
+        }
+
+            .title{
+                position: absolute;
+                padding-left: 165px;
+                padding-top: 93px;
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            .main-menu{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                // font-family: Libre Franklin;
+                // font-style: normal;
+                // font-weight: bold;
+                // font-size: 18px;
+                // line-height: 22px;
+                
+                a{
+                    justify-content: flex-end;
+                    padding-top: 93px;
+                    padding-right: 60px;
+                    font-family: Libre Franklin;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color:#FFFFFF;
+                    text-decoration: none;
+                }
+
+                // a:hover{
+                //     border:3px solid #FFFFFF;
+                //     border-radius: 5px;
+                // }
+                .lastA{
+                    padding-right: 166px;
+                }
+                
+            }
+            .main-name{
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 64px;
+                line-height: 78px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                
+                    h1{
+                        padding-left: 165px;
+                        padding-top: 145px;
+                    }
+
+            }
+            .main-paragraf{
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                
+                    p{
+                        padding-left: 165px;
+                        padding-top: 26px;
+                    }
+            }
+            .latest-works{
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                text-decoration-line: underline;
+                // color: #FFFFFF;
+                    a{
+                        display: inline-block;
+                        padding-left: 165px;
+                        padding-top: 106px;
+                        color: #FFFFFF;
+                    }
+
+            }
+    }
+    .about{
+        width: 100%;
+        height: 544px;
+        background: #FFFFFF;
+
+        p{
+            padding-top: 93px;
+            padding-left: 165px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        span{
+            display: inline-block;
+            padding-left: 165px;
+            padding-top: 76px;
+            padding-right: 167px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: justify;
+        }
+
+        #secondSpan{
+            padding-top: 43px;
+        }
+    }
+    .skills{
+        width: 100%;
+        height: 693px;
+        background: #FFFAF2;
+
+            .skills_title{
+                padding-bottom: 86px;
+            }
+
+            .title{
+                padding-top: 93px;
+                padding-left: 165px;
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+            }
+            
+            img{
+                display: inline-block;
+                position: absolute;
+                padding-left: 165px;
+                // padding-top: 86px;
+                width: 350px;
+                height: 340px;
+                // display: inline-block;
+            }
+
+            .skills_information{
+                display: flex;
+                position: absolute;
+                // display: inline-block;
+                justify-content: flex-end;
+                flex-direction: column;
+                display: inline-block;
+
+
+
+                .skills_information_name{
+                    // display: flex;
+                    // flex-direction: column;
+                    // display: inline-block;
+                    font-family: Libre Franklin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
+                    padding-left: 640px;
+                    padding-bottom: 20px;
+                }
+                .profile{
+                    padding-bottom: 65px;
+                }
+            }
+            
+            .block-progresBar{
+                display: flex;
+                flex-direction: column;
+                padding-left: 829px;
+
+                    p{
+                        font-family: Libre Franklin;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+
+                    p{
+                        padding-bottom: 20px;
+                    }
+                    div{
+                        margin-bottom: 21px;
+                    }
+                    .header_paragraf{
+                        padding-bottom: 65px;
+                    }
+                    .progresBar{
+                        width: 446px;
+                        height: 24px;
+                        background: #F5D6AB;
+
+                            .progresBarOn{
+                                width: 381px;
+                                height: 24px;
+                                background: #C66C49;
+                            }
+                            .progresBarOnSecond{
+                                width:351px;
+                                height: 24px;
+                                background: #C66C49;
+
+                            }
+                            .progresBarOnThird{
+                                width:286px;
+                                height: 24px;
+                                background: #C66C49;
+
+                            }
+                           
+                    }
+                    
+            }
+    }
+
+    .portfolio{
+        width: 100%;
+        height: 822px;
+            
+            .title{
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                padding-top: 93px;
+                padding-left: 165px;
+                padding-bottom: 86px;
+            }
+            .UXR{
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+                padding-left: 166px;
+                padding-bottom: 48px;
+            }
+
+            .some_information{
+                position: absolute;
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: justify;
+                width: 349px;
+                height: 137px;
+                margin-left: 166px;
+                
+            }
+
+            .imgWorks{
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 165px;
+
+                    .chevron{
+                        display: flex;
+                        align-items: flex-end;
+                        padding-right: 482px;
+                        
+                        .left{
+                            padding-right: 14px;
+                        }
+                        
+                        
+                      
+                    }
+
+                    .first-block{
+                        display: flex;
+                        flex-direction: column;
+                        
+
+                        .rectangle{
+                            padding-bottom: 26px;
+                        }
+
+                    }
+
+                    .second-block{
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 30px;
+
+                        .dom-luis-bridge{
+                            // margin-left: 30px;
+                            padding-bottom: 26px;
+                        }
+                    }
+            }
+           
+    }
+
+    .footer{
+        display: flex;
+        width: 100%px;
+        height: 528px; 
+        flex-direction: column;
+        background: #FFFAF2;
+            p{
+                padding-left: 165px;
+                padding-top: 93px;
+                font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+            }
+           .columns{
+               display: flex;
+               flex-direction: row;
+               font-family: Libre Franklin;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                padding-top: 51px;
+                
+
+             .firstColumn{
+                display: flex;
+                flex-direction: column;
+                padding-left: 165px;
+
+
+           }
+            .secondColumn{
+                display: flex;
+                flex-direction: column;
+                padding-left: 369px;
+
+            }
+
+            .thirdColumn{
+                display: flex;
+                flex-direction: column;
+                padding-left: 307px;
+            }
+
+            a{
+                padding-bottom: 14px;
+                text-decoration: none;
+                color: #333333;
+            }
+
+        }
+
+        .chevronUp{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 180px;
+            padding-top: 95px;
+        }
+    }
+}
+
+// @media only screen and (min-width: 375px){
+//     .container{
+//         width: 1282px;
+//         display: flex;
+//         flex-direction: column;
+
+//             .header{
+//                 width: 100%;
+//                 display: flex;
+
+//                     .title{
+//                         span{
+//                             font-family: Libre Franklin;
+//                         font-style: normal;
+//                         font-weight: bold;
+//                         font-size: 24px;
+//                         line-height: 29px;
+//                         }
+//                     }
+                
+//                     .main-menu{
+//                         display: none;
+//                     }
+//             }
+
+//     }
+
+// }
